@@ -8,5 +8,6 @@
 
 <body>
     <div class="container">
-        <h1>Titre Article</h1>
+        <h1><?= $titre?></h1>
+    </div>
 </body>
