@@ -1,0 +1,109 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.title {
+    font-family: Noe, sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+    color :black;
+}
+
+em {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top : 5rem;
+    text-align: justify;
+}
+.align-items{
+    align-items: center;
+}
+
+.butn-update {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007bffd9;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.butn-update:before, .butn-update:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.butn-update:before {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.butn-update:after {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.butn-update:hover {
+    background-color: #0069d9;
+}
+
+.butn-update:hover:before, .butn-update:hover:after {
+    width: 100%;
+}
+
+.butn-delete {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ce2f2f;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.butn-delete:before, .butn-delete:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.butn-delete:before {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.butn-delete:after {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.butn-delete:hover {
+    background-color: #ff5353;
+}
+
+.butn-delete:hover:before, .butn-delete:hover:after {
+    width: 100%;
+}
+.butn{
+    margin-left : 67rem;
+}
